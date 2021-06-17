@@ -14,6 +14,10 @@ const UsuarioSchema = Schema({
         type:String,
         require:true
     },
+    image: {
+        type:String,
+        default : 'assets/images/user.png'
+    },
     online : {
         type:Boolean,
         default : false

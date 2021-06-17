@@ -2,7 +2,7 @@
     path= api/login
 */
 
-const {Router,response} = require('express');
+const {Router} = require('express');
 const { check } = require('express-validator');
 const { crearUsuario,login,renewToken } = require('../controllers/auth');
 const { validarCampos } = require('../middlewares/validar-campos');
